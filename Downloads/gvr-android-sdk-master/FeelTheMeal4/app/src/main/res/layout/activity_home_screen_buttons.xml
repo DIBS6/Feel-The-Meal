@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.feelthemeal.feelthemeal.HomeScreenButtons"
+    android:background="@drawable/newbackground">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:maxHeight="144dp"
+        android:maxWidth="144dp"
+        android:minHeight="144dp"
+        android:minWidth="144dp"
+        android:nestedScrollingEnabled="false"
+        android:src="@drawable/breakfast"
+        android:background="#00ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/b2"
+        android:layout_toStartOf="@+id/b2" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:maxHeight="144dp"
+        android:maxWidth="144dp"
+        android:minHeight="144dp"
+        android:minWidth="144dp"
+        android:nestedScrollingEnabled="false"
+        android:src="@drawable/dinner"
+        android:background="#00ffffff"
+        android:layout_alignTop="@+id/b4"
+        android:layout_toStartOf="@+id/b2"
+        android:layout_toLeftOf="@+id/b2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:maxHeight="144dp"
+        android:maxWidth="144dp"
+        android:minHeight="144dp"
+        android:minWidth="144dp"
+        android:nestedScrollingEnabled="false"
+        android:src="@drawable/lunch"
+        android:background="#00ffffff"
+        android:layout_alignTop="@+id/b1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/b1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:maxHeight="144dp"
+        android:maxWidth="144dp"
+        android:minHeight="144dp"
+        android:minWidth="144dp"
+        android:nestedScrollingEnabled="false"
+        android:src="@drawable/desserts"
+        android:background="#00ffffff"
+        android:layout_marginBottom="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+</RelativeLayout>
+
+
+
