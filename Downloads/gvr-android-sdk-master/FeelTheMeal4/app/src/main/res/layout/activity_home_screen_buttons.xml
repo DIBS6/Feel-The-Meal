@@ -31,8 +31,8 @@
         android:src="@drawable/breakfast"
         android:background="#00ffffff"
         android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/b2"
-        android:layout_toStartOf="@+id/b2" />
+        android:layout_toStartOf="@+id/b2"
+        android:layout_toLeftOf="@+id/b2" />
 
 
     <ImageButton

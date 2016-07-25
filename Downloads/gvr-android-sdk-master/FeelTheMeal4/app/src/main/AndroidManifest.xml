@@ -4,11 +4,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-       <!-- Home Screen Buttons -->
+<!-- Home Screen Buttons -->
         <activity android:name=".HomeScreenButtons">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Breakfast -->
+ <!-- Breakfast -->
         <activity android:name=".Breakfast">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Lunch -->
+<!-- Lunch -->
         <activity android:name=".Lunch">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Noise -->
+<!-- Dinner -->
+        <activity android:name=".Dinner">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!-- Dessert -->
+        <activity android:name=".Dessert">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!-- Noise -->
         <activity android:name=".SoundOnClick">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -26,8 +26,9 @@ public class HomeScreenButtons extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen_buttons);
-        breakfastButton = (ImageButton) findViewById(R.id.b1);
 
+        //Breakfast
+        breakfastButton = (ImageButton) findViewById(R.id.b1);
         breakfastButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,6 +36,8 @@ public class HomeScreenButtons extends AppCompatActivity {
                 startActivity(myIntent);
             }
         });
+
+        //Lunch
         lunchButton = (ImageButton) findViewById(R.id.b2);
         lunchButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +46,8 @@ public class HomeScreenButtons extends AppCompatActivity {
                 startActivity(myIntent);
             }
         });
+
+        //Dinner
         dinnerButton = (ImageButton) findViewById(R.id.b3);
         dinnerButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +56,8 @@ public class HomeScreenButtons extends AppCompatActivity {
                 startActivity(myIntent);
             }
         });
+
+        //Dessert
         dessertButton = (ImageButton) findViewById(R.id.b4);
         dessertButton.setOnClickListener(new View.OnClickListener() {
             @Override
