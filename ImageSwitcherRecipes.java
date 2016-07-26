@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
-
+import java.util.Random;
 
 public class ImageSwitcherRecipes extends Activity {
 
@@ -56,7 +56,14 @@ public class ImageSwitcherRecipes extends Activity {
     }
 
     public void onSwitch(View view) {
+        //getRandom(IMAGES);
+        
+        //randomize the selection
+        // int rand = new Random().nextInt(IMAGES.length);
+        //mPosition = rand;
         mTextSwitcher.setText(TEXTS[mPosition]);
         mImageSwitcher.setBackgroundResource(IMAGES[mPosition]);
-        mPosition = (mPosition + 1) % TEXTS.length;
+        
+        // mPosition = (mPosition + 1) % TEXTS.length;
+        // mPosition = rand;
     }
