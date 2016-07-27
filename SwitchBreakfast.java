@@ -57,5 +57,9 @@ public class SwitchBreakfast extends Activity {
         mTextSwitcher.setText(TEXTS[mPosition]);
         mImageSwitcher.setBackgroundResource(IMAGES[mPosition]);
         mPosition = (mPosition + 1) % TEXTS.length;
+        //getRandom(IMAGES):
++       //int rand = new Random().nextInt(ARRAY.length);
++        //mPosition = rand;
+
     }
 }
